@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement", "ProductManagement\ProductManagement.csproj", "{3B5DEBE7-130F-49F9-9678-ED0851D6D182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLFile", "SQLFile", "{A0B07458-A61C-4B68-95B9-18F6C18F6430}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\ProductManagementDB.sql = ..\..\..\Downloads\ProductManagementDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5DEBE7-130F-49F9-9678-ED0851D6D182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5DEBE7-130F-49F9-9678-ED0851D6D182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5DEBE7-130F-49F9-9678-ED0851D6D182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5DEBE7-130F-49F9-9678-ED0851D6D182}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D98B4616-FEE0-4400-8068-60FB5B5AF82B}
+	EndGlobalSection
+EndGlobal
