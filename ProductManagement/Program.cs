@@ -15,7 +15,14 @@ namespace ProductManagement
                 SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductManager());
+            try
+            {
+                Application.Run(new ProductManager());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đổi connection string để chạy app");
+            }
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();
